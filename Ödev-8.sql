@@ -1,8 +1,8 @@
---CREATE TABLE employee (
-	--id INTEGER,
-	--name VARCHAR(50),
-	--birthday DATE,
-	--email VARCHAR(100));
+CREATE TABLE employee (
+	id INTEGER,
+	name VARCHAR(50),
+	birthday DATE,
+	email VARCHAR(100));
 	
 INSERT INTO employee (id, name, birthday, email) values (00000000001,'ABC','01/01/1995', null);
 INSERT INTO employee (id, name, birthday, email) values (00000000002,'BCD','02/01/1995', null);
